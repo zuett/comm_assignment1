@@ -1,0 +1,76 @@
+index.html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Comic Demo</title>
+  <link href="style.css" rel="stylesheet">
+
+</head>
+<body>
+  <!-- Navigation bar -->
+  <div id="nav">
+    <!-- link to divs on the same page using their id names -->
+    <a href="#mountain"><div class="nav-btn" id="first-page"></div></a>
+    <a href="#first-text"><div class="nav-btn" id="second-page"></div></a>
+    <a href="#ocean"><div class="nav-btn" id="third-page"></div></a>
+    <a href="#second-text"><div class="nav-btn" id="fourth-page"></div></a>
+  </div>
+  <!-- 
+  Four full browser size sections:
+  1. Mountain
+  2. Text section
+  3. Ocean
+  4. Text section
+   -->
+  <div id="mountain">
+    <!-- Content to display inside the mountain div -->
+    <div id="flower-div">
+      <!-- <span id="flower-text">Going up and up.</span> -->
+      <img id="flower" src="img/hole.png">
+    </div>
+  </div>
+  <div id="first-text" class="text-section">
+    <p class="text">UNIVERSE FUN FACT: There are more stars in the universe than grains of sand on all the beaches on Earth. That’s at least a billion trillion!</p>
+  </div>
+  <div id="ocean">
+    <!-- Content to display inside the ocean div -->
+    <div id="fish-div">
+      <img id="fish" src="img/moonlander.png">
+      <!-- <span id="fish-text">Fish swiming and swiming</span> -->
+    </div>
+  </div>
+  <div id="second-text" class="text-section">
+    <p class="text">THE MOON (our own :P ) : It travels 1,423,000 miles around Earth at a speed of 2,288 mph. It is slowest when it is furthest from Earth and fastest when closest to Earth.
+    </p>
+  </div>
+
+
+  <div id="scene1">
+    </div>
+  </div>
+
+  
+
+  </div>
+  <div id="second-text" class="text-section">
+    <p class="text">VENUSS!! Unlike the other planets in our solar system, Venus spins clockwise on its axis, and btw a day on Venus is longer than a year!!
+    </p>
+  </div>
+
+<div id="scene2">
+  </div>
+
+  <!-- Cat div position is fixed on the bottom left corner of the web page -->
+  <div id="cat-div">
+    <span id="cat-text">Hello!</span>
+    <img id="cat" src="img/earth.png">
+
+  </div>
+
+  <!-- call the function to change the text -->
+  <script type="text/javascript" src="script.js"></script>
+
+
+
+</body>
+</html>
